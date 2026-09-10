@@ -1,0 +1,54 @@
+{
+    "blocks": {
+        "Block A": {
+            "capacity_per_room": 4,
+            "rooms": {
+                "A101": [
+                    "VU-BIT-2603-0985-EVE"
+                ],
+                "A102": [],
+                "A103": [],
+                "A104": []
+            }
+        },
+        "Block B": {
+            "capacity_per_room": 3,
+            "rooms": {
+                "B101": [],
+                "B102": [],
+                "B103": []
+            }
+        },
+        "Block C": {
+            "capacity_per_room": 2,
+            "rooms": {
+                "C101": [],
+                "C102": [],
+                "C103": [],
+                "C104": []
+            }
+        }
+    },
+    "students": {
+        "VU-BIT-2603-0985-EVE": {
+            "registration_number": "VU-BIT-2603-0985-EVE",
+            "name": "Antonio Sergio Mane",
+            "course": "Information Technology",
+            "phone_number": "0742523384",
+            "total_fee": 1000000.0,
+            "amount_paid": 600000.0,
+            "balance": 400000.0,
+            "block": "Block A",
+            "room": "A101",
+            "payments": [
+                600000.0
+            ]
+        }
+    },
+    "payments": [
+        {
+            "registration_number": "VU-BIT-2603-0985-EVE",
+            "amount": 600000.0
+        }
+    ]
+}
